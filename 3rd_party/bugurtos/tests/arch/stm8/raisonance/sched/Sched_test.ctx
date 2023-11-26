@@ -1,0 +1,112 @@
+
+<Debug>
+	<RFlasher7>
+		<CodeView Focus="0" TopRow="0" NbPerLine="8" />
+																																																																																							
+	</RFlasher7>
+	<Sched_test>
+		<CodeView TopRow="32896" Focus="32896" >
+			<CodeReport>
+				<0>184</0>
+				<1>203</1>
+				<2>109</2>
+				<3>624</3>
+				<4>69</4>
+				<5>149</5>
+														
+			</CodeReport>
+										
+		</CodeView>
+		<MemoryView Focus="32896" TopRow="0" NbPerLine="8" />
+						
+	</Sched_test>
+	<Flags>
+		<Report>
+			<Def Header="FlagReport" NbCol="9" >
+				<Col Type="PT_BOOL" Header="Check" sizeCache="18" AutoSize="0" Edit="1" Sortable="1" Icon="C:\Raisonance\Ride\Config\Resources\check.bmp" />
+				<Col Type="PT_STRING" Header="Kind" sizeCache="DDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="KindID" sizeCache="DD" AutoSize="1" Edit="0" Sortable="1" Visible="0" />
+				<Col Type="PT_STRING" Header="Space" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="SpaceID" sizeCache="DD" AutoSize="0" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Line" sizeCache="DDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="File" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="Path" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condition" sizeCache="DDDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" />
+				<Col Type="PT_STRING" Header="Condexpr" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condcount" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+							
+			</Def>
+			<Rows>
+				<Row Check="True" Kind="Breakpoint" KindID="0" Space="code" SpaceID="0" Condition="" Line="L:11" File="main.c" Path="C:\Users\test_\Desktop\4.x.x\bugurtos\tests\main\sched\main.c" />
+				<Row Check="True" Kind="Breakpoint" KindID="0" Space="code" SpaceID="0" Condition="" Line="L:17" File="main.c" Path="C:\Users\test_\Desktop\4.x.x\bugurtos\tests\main\sched\main.c" />
+				<Row Check="True" Kind="Breakpoint" KindID="0" Space="code" SpaceID="0" Condition="" Line="L:20" File="main.c" Path="C:\Users\test_\Desktop\4.x.x\bugurtos\tests\main\sched\main.c" />
+							
+			</Rows>
+					
+		</Report>
+			
+	</Flags>
+	<Views>
+		<View File="..\..\..\..\main\sched\main.c" Line="10" Index="0" />
+		<View File="..\..\..\..\..\arch\stm8\raisonance\bugurt_port.h" Line="1" Index="1" />
+		<View File="..\..\..\..\..\arch\stm8\raisonance\bugurt_proc_stack_init.c" Line="1" Index="2" />
+		<View File="..\..\..\..\..\arch\stm8\raisonance\bugurt_port.c" Line="124" Index="3" />
+		<View File="..\..\..\..\..\kernel\syscall.c" Line="34" Index="4" />
+		<View File="..\..\..\..\..\kernel\bugurt.h" Line="135" Index="5" />
+		<View File="..\..\..\..\..\kernel\syscall.h" Line="101" Index="6" />
+		<View File="..\bugurt_config.h" Line="68" Index="7" />
+		<View File="..\test_func.c" Line="52" Index="8" />
+		<View File="..\test_func.h" Line="39" Index="9" />
+		<View File="..\..\..\..\..\..\thirdparty\libstm8\include\libstm8\common.h" Line="23" Index="10" />
+		<View File="..\..\..\..\..\..\thirdparty\libstm8\include\libstm8\l\gpio.h" Line="1" Index="11" />
+		<View File="..\..\..\..\..\..\thirdparty\libstm8\lib\l\gpio.c" Line="1" Index="12" />
+		<View File="..\..\..\..\..\..\thirdparty\libstm8\include\libstm8\stm8l.h" Line="1" Index="13" />
+		<View File="..\..\..\..\..\..\thirdparty\libstm8\include\libstm8\l\regs.h" Line="155" Index="14" focus="1" />
+		<View File="..\..\..\..\..\..\thirdparty\libstm8\include\libstm8\l\tim.h" Line="1" Index="15" />
+		<View File=".\bin\bugurt_port.lst" Line="1" Index="16" />
+	</Views>
+	<BookMarks>
+		<BookMark File="" Line="3936024" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+		<BookMark File="" Line="0" />
+	</BookMarks>
+	<Grep>
+		<GrepIncludeSub>yes</GrepIncludeSub>
+		<GrepMatchCase>no</GrepMatchCase>
+		<GrepMatchWhole>no</GrepMatchWhole>
+		<GrepRegExp>no</GrepRegExp>
+		<GrepReplaceMode>no</GrepReplaceMode>
+		<GrepFileTypes>
+			<GrepFileTypesValue>*.c;*.h</GrepFileTypesValue>
+			<GrepFileType>*.c;*.h</GrepFileType>
+		</GrepFileTypes>
+		<GrepFindWhat>
+			<GrepFindWhatValue/>
+		</GrepFindWhat>
+		<GrepFindWhere>
+			<GrepFindWhereValue>Application Files</GrepFindWhereValue>
+			<GrepPathStr>Application Files</GrepPathStr>
+			<GrepPathStr>Application Path</GrepPathStr>
+			<GrepPathStr>Project Files</GrepPathStr>
+		</GrepFindWhere>
+		<GrepReplaceWhat>
+			<GrepReplaceWhatValue/>
+		</GrepReplaceWhat>
+	</Grep>
+	<FindStrings>
+		<Find>reti</Find>
+		<Find>SPI1_CR1</Find>
+		<Find>PCKEN1_</Find>
+		<Find>PCKEN1_TIM4</Find>
+		<Find>CKDIVR</Find>
+		<Find>MASK_CPU_CCR_I1</Find>
+	</FindStrings>
+	<ReplaceStrings/>
+</Debug>
